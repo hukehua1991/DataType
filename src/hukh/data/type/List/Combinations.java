@@ -14,7 +14,7 @@ public class Combinations {
 	 * @param n	
 	 */
 	public void combination(List<Integer> selected, List<Integer> data, int n) {
-		
+		// smaller than 0,should by retured
 		if (n < 0) {
 			return;
 		}
