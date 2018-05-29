@@ -1,4 +1,4 @@
-package hukh.data.type.List;
+package hukh.data.type.recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;

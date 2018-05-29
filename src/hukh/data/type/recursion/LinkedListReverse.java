@@ -1,6 +1,8 @@
-package hukh.data.type.List;
+package hukh.data.type.recursion;
 
 import java.util.Arrays;
+
+import hukh.data.type.comm.Node;
 
 public class LinkedListReverse {
 	

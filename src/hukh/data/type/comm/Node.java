@@ -1,4 +1,4 @@
-package hukh.data.type.List;
+package hukh.data.type.comm;
 
 public class Node {
 	private final int value;
@@ -12,11 +12,11 @@ public class Node {
 		return this.value;
 	}
 	
-	void setNext(Node next) {
+	public void setNext(Node next) {
 		this.next = next;
 	}
 	
-	Node getNext() {
+	public Node getNext() {
 		return this.next;
 	}
 	
