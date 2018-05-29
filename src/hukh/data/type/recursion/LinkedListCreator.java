@@ -1,11 +1,13 @@
-package hukh.data.type.List;
+package hukh.data.type.recursion;
 
 import java.util.Arrays;
 import java.util.List;
 
+import hukh.data.type.comm.Node;
+
 public class LinkedListCreator {
 	
-	Node creator(List<Integer> data) {
+	public Node creator(List<Integer> data) {
 		// 特殊情况处理
 		if (data.isEmpty())
 			return null;
